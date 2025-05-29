@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>op3_advanced_detector</name>
+  <version>0.0.1</version>
+  <description>
+    OP3 Advanced Ball Detector - YOLO + OpenVINO based real-time ball detection system.
+    This package implements a modern ball detector using YOLO and OpenVINO optimization.
+    It replaces the traditional OpenCV-based op3_ball_detector with improved accuracy and performance.
+  </description>
+  <maintainer email="robotis@robotis.com">ROBOTIS</maintainer>
+  <license>Apache 2.0</license>
+
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>op3_ball_detector_msgs</depend>
+  <depend>image_transport</depend>
+
+  <exec_depend>usb_cam</exec_depend>
+  <exec_depend>uvc_camera</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

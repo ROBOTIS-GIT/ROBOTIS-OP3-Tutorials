@@ -1,0 +1,31 @@
+# OP3 Advanced Ball Detector Configuration
+# Clean and intuitive configuration management
+
+/**:
+  ros__parameters:
+    # === Model Settings ===
+    # yolov8n: Fast, low accuracy (recommended for low-spec)
+    # yolov8s: Balanced performance (recommended default)
+    # yolov8m: High accuracy, medium speed
+    # yolov8l/x: Highest accuracy, slow speed
+    yolo_model: "yolov8m"
+    
+    # === OpenVINO Optimization ===
+    # FP32: Stable, high accuracy
+    # FP16: Fast processing, memory efficient
+    openvino_precision: "FP16"
+    
+    # === Camera Settings ===
+    camera_topic: "/usb_cam_node/image_raw"
+    
+    # === Detection Settings ===
+    confidence_threshold: 0.15
+    iou_threshold: 0.5
+    input_size: [320, 320]     # [width, height]
+    
+    # === Performance Settings ===
+    frame_skip: 2              # Process every N frames (performance optimization)
+    
+    # === Debug Settings ===
+    debug_mode: true           # Enable debug visualization
+    enable_performance_log: true
