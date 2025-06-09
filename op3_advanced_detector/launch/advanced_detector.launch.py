@@ -41,5 +41,6 @@ def generate_launch_description():
             parameters=[LaunchConfiguration('config_file')],
             output='screen',
             emulate_tty=True,  # Color log output support
+            prefix='/home/robotis/yolo_env/bin/python3'  # Use Python virtual environment for YOLO
         )
     ])
