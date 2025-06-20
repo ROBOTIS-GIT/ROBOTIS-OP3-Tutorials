@@ -1,2 +1,5 @@
 op3_advanced_detector/op3_advanced_detector/__pycache__/op3_advanced_detector.cpython-312.pyc
 op3_advanced_detector/op3_advanced_detector/__pycache__/__init__.cpython-312.pyc
+op3_voice_control/op3_voice_control/__pycache__/__init__.cpython-312.pyc
+op3_voice_control/op3_voice_control/__pycache__/command_processor.cpython-312.pyc
+op3_voice_control/op3_voice_control/__pycache__/speech_recognition_node.cpython-312.pyc
