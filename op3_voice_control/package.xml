@@ -1,16 +1,11 @@
-<?x  <name>op3_voice_control</name>
-  <version>0.0.1</version>
-  <description>ROBOTIS OP3 Voice Control Package with TTS and Speech Recognition</description>
-  <maintainer email="robotis@robotis.com">robotis</maintainer>
-  <license>Apache License 2.0</license>rsion="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>op3_voice_control</name>
-  <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="zerom@robotis.com">robotis</maintainer>
-  <license>TODO: License declaration</license>
-
+  <version>0.0.1</version>
+  <description>ROBOTIS OP3 Voice Control Package with TTS and Speech Recognition</description>
+  <maintainer email="robotis@robotis.com">robotis</maintainer>
+  <license>Apache License 2.0</license>
+  
   <depend>rclpy</depend>
   <depend>std_msgs</depend>
   <depend>geometry_msgs</depend>
