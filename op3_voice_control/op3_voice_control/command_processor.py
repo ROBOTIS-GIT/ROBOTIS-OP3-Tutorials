@@ -297,7 +297,6 @@ class CommandProcessor(Node):
             "Try saying: motion mode, stand up, sit down, or status"
         ]
         
-        import random
         response = random.choice(responses)
         self.speak(response)
     
